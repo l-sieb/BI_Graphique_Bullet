@@ -98,7 +98,7 @@ var chart_BIBOARDCOMPNAME = Highcharts.chart('container_BIBOARDCOMPNAME', {
             showInLegend: true
         },
         {
-            name: 'Service',  // ✨ nom de la serie 3
+            name: 'Global',  // ✨ nom de la serie 3
             data: [],
             color: '#999999',  // ✨ couleur de la serie 3
             showInLegend: true
@@ -108,7 +108,7 @@ var chart_BIBOARDCOMPNAME = Highcharts.chart('container_BIBOARDCOMPNAME', {
         pointFormat: `
             <b>Individuel:</b> ${valeurIndividuelle_BIBOARDCOMPNAME}<br/>
             <b>Objectif:</b> ${objectifMin_BIBOARDCOMPNAME} - ${objectifMax_BIBOARDCOMPNAME}<br/>
-            <b>Service:</b> ${groupe_BIBOARDCOMPNAME}
+            <b>Global:</b> ${groupe_BIBOARDCOMPNAME}
         `
     }
 });
