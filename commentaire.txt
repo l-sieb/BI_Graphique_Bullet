@@ -1,0 +1,23 @@
+✨ : Personnalisation du composant
+❌ : ligne a commenter/supprimer lors de l'insertion sur Biboard
+📋 : morceau de script à copier dans les differents champs Biboard
+📌 : zone où il faut coller un script
+
+
+
+Remarques et commentaires sur la mise en place de ce composant Biboard 
+
+- le champ de source de donnée doit etre une suite de 4 valeurs decimales avec comme séparateur un point (et non une virgule)
+exemple : 2.14, 2, 2, 1.90 
+    valeur 1= serie 1 
+    valeur 2 = min serie 2
+    valeur 3 = max serie 2
+    valeur 4 = serie 3
+
+- Exemple du champs datasource pour formater les données
+ "" &
+         " " & Field("Moyenne Nombre besoin/demande") & ", " &
+         " " & Field("min_B") & ", " &
+         " " & Field("max_B") & ", " &
+          " " & Field("Moyenne Nombre besoin/demande Service") & " " &
+       " ,"
