@@ -19,6 +19,7 @@ Graphique en **barre horizontale de type "bullet chart"**, utilisé pour compare
 - Une **infobulle (tooltip)** apparaît au survol de la barre, affichant le nom de l'indicateur et le détail des trois valeurs (ex. *"Moyenne — Individuel : 2.14 / Objectif : 2 - 2 / Global : 1.9"*)
 
 ### Exemple
+🔗 **[Voir la démo en ligne]([https://tonpseudo.github.io/nom-du-repo/](https://l-sieb.github.io/BI_Graphique_Bullet/))**
 
 <img width="578" height="166" alt="exemple" src="https://github.com/user-attachments/assets/1fa6b03e-fba3-4794-91f1-27d10d811598" />
 
